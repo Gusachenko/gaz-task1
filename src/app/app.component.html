@@ -1,0 +1,12 @@
+<div class="main-wrapper">
+    <div class="towers-block">
+
+        <ng-container *ngFor="let indicators of apiResponseData.indicatorsArr">
+
+            <app-bar-ie-element [levelIndicator]="indicators.level" [weightIndicator]="indicators.weight">
+            </app-bar-ie-element>
+
+        </ng-container>
+
+    </div>
+</div>
