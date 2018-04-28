@@ -1,7 +1,7 @@
 # Angular & SVG Component's & Sample 
 Provides sample Angular project with responsive SVG component's. SVG component's has dynamic visualization that depend of data value from API.
 
-![SVG component's](https://github.com/Gusachenko/ng-svg-animation-sample/blob/master/github_assets/sample.png?raw=true "SVG component's")
+![SVG component's](https://github.com/Gusachenko/ng-svg-component-sample/blob/master/github_assets/sample.png?raw=true "SVG component's")
 
 
 # Features
@@ -10,12 +10,12 @@ Provides sample Angular project with responsive SVG component's. SVG component's
 - MongoDB API(Amazon AWS) for syncing data and visualization SVG element's
 - Sample structure
 
- ### [DEMO](https://stackblitz.com/github/gusachenko/ng-svg-animation-sample "Live demo preview")
+ ### [DEMO](https://stackblitz.com/github/gusachenko/ng-svg-component-sample "Live demo preview")
 
 # Getting started
 
 ```bash
-git clone https://github.com/Gusachenko/ng-svg-animation-sample.git new-project
+git clone https://github.com/Gusachenko/ng-svg-component-sample.git new-project
 cd new-project
 npm install
 npm start
