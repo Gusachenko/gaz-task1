@@ -1,7 +1,7 @@
 # Angular & SVG Component's & Sample 
 Provides sample Angular project with responsive SVG component's. SVG component's has dynamic visualization that depend of data value from API.
 
-![SVG component's](https://github.com/Gusachenko/ng-admin-panel/blob/master/github_assets/sample.png?raw=true "SVG component's")
+![SVG component's](https://github.com/Gusachenko/ng-svg-animation-sample/blob/master/github_assets/sample.png?raw=true "SVG component's")
 
 
 # Features
