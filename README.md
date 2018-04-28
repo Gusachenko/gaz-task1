@@ -10,7 +10,7 @@ Provides sample Angular project with responsive SVG component's. SVG component's
 - MongoDB API(Amazon AWS) for syncing data and visualization SVG element's
 - Sample structure
 
- ### [DEMO](https://stackblitz.com/github/gusachenko/ng-admin-panel "Live demo preview")
+ ### [DEMO](https://stackblitz.com/github/gusachenko/ng-svg-animation-sample "Live demo preview")
 
 # Getting started
 
