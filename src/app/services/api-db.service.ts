@@ -6,11 +6,13 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class ApiDbService {
-
-  constructor(private http: Http) { }
+  constructor(private http: Http) {}
 
   public getAllData() {
-    return this.http.get('https://api.mlab.com/api/1/databases/cloudfirst/collections/towers?apiKey=bkrXAXOr5IwTC3JZ1jLbJ68bIQknSxZE')
+    return this.http
+      .get(
+        'https://api.mlab.com/api/1/databases/cloudfirst/collections/towers?apiKey=bkrXAXOr5IwTC3JZ1jLbJ68bIQknSxZE'
+      )
       .map(this.extractData)
       .catch(this.handleError);
   }
@@ -23,5 +25,4 @@ export class ApiDbService {
     console.error(error);
     return Observable.throw(error);
   }
-
 }

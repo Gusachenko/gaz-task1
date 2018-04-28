@@ -1,209 +1,210 @@
 .tower-wrapper {
+  display: block;
+  float: left;
+  width: 10%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 2%;
+  .tower-element-svg {
+    overflow: hidden;
     display: block;
-    float: left;
-    width: 10%;
-    height: auto;
-    margin-top: 2%;
-    margin-left: 2%;
-    .tower-element-svg {
-        overflow: hidden;
-        display: block;
-        position: relative;
-        font-size: 16px;
-        .vol-value {}
-        .header-block {
-            position: absolute;
-            width: 80%;
-            height: 10%;
-            top: 1%;
-            left: 50%;
-            transform: translate(-50%, 0);
-            text-align: center;
-            color: white;
-            .header-block__title {
-                height: 40%;
-                overflow: hidden;
-                font-size: 0.5em;
-            }
-            .header-block__value {
-                position: relative;
-                top: 8%;
-                font-size: 1.1em;
-            }
-        }
-        .bottom-block {
-            position: absolute;
-            width: 70%;
-            height: 8%;
-            bottom: 1%;
-            left: 47%;
-            transform: translate(-50%, 0);
-            text-align: center;
-            color: white;
-            .bottom-block__title {
-                font-size: 0.5em;
-            }
-            .bottom-block__value {
-                position: relative;
-                top: 9%;
-                font-size: 1.1em;
-            }
-        }
-        .attention-level {
-            stroke: #fa0000;
-        }
+    position: relative;
+    font-size: 16px;
+    .vol-value {
     }
+    .header-block {
+      position: absolute;
+      width: 80%;
+      height: 10%;
+      top: 1%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      text-align: center;
+      color: white;
+      .header-block__title {
+        height: 40%;
+        overflow: hidden;
+        font-size: 0.5em;
+      }
+      .header-block__value {
+        position: relative;
+        top: 8%;
+        font-size: 1.1em;
+      }
+    }
+    .bottom-block {
+      position: absolute;
+      width: 70%;
+      height: 8%;
+      bottom: 1%;
+      left: 47%;
+      transform: translate(-50%, 0);
+      text-align: center;
+      color: white;
+      .bottom-block__title {
+        font-size: 0.5em;
+      }
+      .bottom-block__value {
+        position: relative;
+        top: 9%;
+        font-size: 1.1em;
+      }
+    }
+    .attention-level {
+      stroke: #fa0000;
+    }
+  }
 }
 
 @media screen and (min-width: 1500px) {
-    .bottom-block,
-    .header-block {
-        font-size: 1.5vw;
-    }
+  .bottom-block,
+  .header-block {
+    font-size: 1.5vw;
+  }
 }
 
 @media screen and (max-width: 1500px) {
-    .bottom-block,
-    .header-block {
-        font-size: 1.5vw;
-    }
+  .bottom-block,
+  .header-block {
+    font-size: 1.5vw;
+  }
 }
 
 @media screen and (max-width: 1350px) {
-    .bottom-block,
-    .header-block {
-        font-size: 20px;
-    }
+  .bottom-block,
+  .header-block {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .bottom-block,
-    .header-block {
-        font-size: 16px;
-    }
+  .bottom-block,
+  .header-block {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .bottom-block,
-    .header-block {
-        font-size: 12px;
-    }
+  .bottom-block,
+  .header-block {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-    .bottom-block,
-    .header-block {
-        font-size: 10px;
-    }
+  .bottom-block,
+  .header-block {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 520px) {
-    .bottom-block,
-    .header-block {
-        font-size: 7px;
-    }
+  .bottom-block,
+  .header-block {
+    font-size: 7px;
+  }
 }
 
 .cls-1,
 .cls-10,
 .cls-22 {
-    fill: none;
+  fill: none;
 }
 
 .cls-2,
 .cls-21,
 .cls-6,
 .cls-7 {
-    isolation: isolate;
+  isolation: isolate;
 }
 
 .cls-2 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .cls-2,
 .cls-6 {
-    fill: #fff;
-    font-family: ArialMT, Arial;
+  fill: #fff;
+  font-family: ArialMT, Arial;
 }
 
 .cls-3 {
-    letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
 }
 
 .cls-4 {
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 
 .cls-5 {
-    letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
 }
 
 .cls-6 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .cls-8 {
-    letter-spacing: -0.04em;
+  letter-spacing: -0.04em;
 }
 
 .cls-9 {
-    letter-spacing: -0.02em;
+  letter-spacing: -0.02em;
 }
 
 .cls-10 {
-    stroke: #21b149;
-    stroke-miterlimit: 10;
-    stroke-width: 3px;
+  stroke: #21b149;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
 }
 
 .cls-11 {
-    fill: #cbcbcb;
+  fill: #cbcbcb;
 }
 
 .cls-12 {
-    clip-path: url(#clip-path);
+  clip-path: url(#clip-path);
 }
 
 .cls-13 {
-    fill: url(#linear-gradient);
+  fill: url(#linear-gradient);
 }
 
 .cls-14 {
-    clip-path: url(#clip-path-2);
+  clip-path: url(#clip-path-2);
 }
 
 .cls-15 {
-    fill: url(#linear-gradient-2);
+  fill: url(#linear-gradient-2);
 }
 
 .cls-16 {
-    clip-path: url(#clip-path-3);
+  clip-path: url(#clip-path-3);
 }
 
 .cls-17 {
-    fill: url(#linear-gradient-3);
+  fill: url(#linear-gradient-3);
 }
 
 .cls-18 {
-    clip-path: url(#clip-path-4);
+  clip-path: url(#clip-path-4);
 }
 
 .cls-19 {
-    fill: url(#linear-gradient-4);
+  fill: url(#linear-gradient-4);
 }
 
 .cls-20 {
-    fill: url(#linear-gradient-5);
+  fill: url(#linear-gradient-5);
 }
 
 .cls-21 {
-    fill: #21b249;
-    opacity: 0.5;
+  fill: #21b249;
+  opacity: 0.5;
 }
 
 .cls-22 {
-    stroke: #8b959f;
-    stroke-miterlimit: 22.93;
-    stroke-width: 4px;
+  stroke: #8b959f;
+  stroke-miterlimit: 22.93;
+  stroke-width: 4px;
 }

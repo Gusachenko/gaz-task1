@@ -6,15 +6,9 @@ import { AppComponent } from './app.component';
 import { BarIeElementComponent } from './components/bar-ie-element/bar-ie-element.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    BarIeElementComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpModule
-  ],
+  declarations: [AppComponent, BarIeElementComponent],
+  imports: [BrowserModule, HttpModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

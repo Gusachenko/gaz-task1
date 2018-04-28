@@ -1,20 +1,19 @@
 export class Indicator {
-    public id: string;
-    
-    public title: string;
+  public id: string;
 
-    public value: number;
+  public title: string;
 
-    public minValue: number;
+  public value: number;
 
-    public maxValue: number;
+  public minValue: number;
 
-    constructor(id: string, title: string, value: number, minValue: number, maxValue: number){
-        this.id = id;
-        this.title = title;
-        this.value = value;
-        this.minValue = minValue;
-        this.maxValue = maxValue;
-    }
-    
+  public maxValue: number;
+
+  constructor(id: string, title: string, value: number, minValue: number, maxValue: number) {
+    this.id = id;
+    this.title = title;
+    this.value = value;
+    this.minValue = minValue;
+    this.maxValue = maxValue;
+  }
 }
